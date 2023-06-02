@@ -1,0 +1,8 @@
+File from: [src/img/src/swiper/medportal.ru by html.to.design ❤️ FREE version - 09/03/39c1f1f544dc909ec5fc4c352109.webp.jpg]
+
+File to: [src/img/dest/swiper/medportal.ru by html.to.design ❤️ FREE version - 09/03/39c1f1f544dc909ec5fc4c352109.webp.jpg]
+
+Compression algorithm: [mozjpeg]
+
+Description: Error: Command failed: C:\Users\user\Desktop\unity\node_modules\mozjpeg\vendor\cjpeg.exe -quality 75 -outfile src/img/dest/swiper/medportal.ru by html.to.design ❤️ FREE version - 09/03/39c1f1f544dc909ec5fc4c352109.webp.jpg src/img/src/swiper/medportal.ru by html.to.design ❤️ FREE version - 09/03/39c1f1f544dc909ec5fc4c352109.webp.jpg
+C:\Users\user\Desktop\unity\node_modules\mozjpeg\vendor\cjpeg.exe: can't open src/img/src/swiper/medportal.ru by html.to.design ?? FREE version - 09/03/39c1f1f544dc909ec5fc4c352109.webp.jpg
