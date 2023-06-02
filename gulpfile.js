@@ -63,6 +63,8 @@ function cleanimg() {
 	return src('src/img/dest/', {allowEmpty: true}).pipe(clean())
 }
 
+
+
 function buildcopy() {
 	return src([
 		'src/fonts/*',
@@ -75,7 +77,7 @@ function buildcopy() {
 }
 
 function cleandist() {
-	return src('dist', {allowEmpty: true}).pipe(clean()) // Удаляем папку "dist/"
+	return src('dist', {allowEmpty: true}).pipe(clean())
 }
 
 function startwatch() {
