@@ -77,3 +77,16 @@ burger.onclick = () => {
   menuCurrent.style.display = "none";
  }
 }
+
+let searchBtn = document.querySelector('.header-search__btn');
+let search = document.querySelector('.header-search');
+searchBtn.onclick = () => {
+  search.classList.toggle('active');
+}
+
+let reviewsBtn = document.querySelectorAll('.reviews-answer__top');
+for (let i = 0; i < reviewsBtn.length; i++) {
+  reviewsBtn[i].onclick = (e) => {
+    e.target.closest('.reviews-answer').classList.toggle('active');
+  }
+}

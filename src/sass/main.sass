@@ -71,10 +71,19 @@ ul
 			display: block !important
 			margin-right: 20px
 			width: 120px
+			min-width: 120px
 		&-burger 
 			display: none
 		&-menu__current
 			display: none
+		&-search
+			position: relative
+			input
+				right: -9px
+			&.active 
+				input
+					width: 350px
+					padding: 15px 10px
 		&-nav
 			position: static
 			max-height: none 
@@ -99,5 +108,7 @@ ul
 							height: calc( 100% + 14px )
 							top: 50%
 							transform: translateY(-50%) 
+  
+	
 	.breadcrumbs
 		margin-top: 70px

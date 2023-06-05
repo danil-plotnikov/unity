@@ -185,6 +185,7 @@
     font-size: 14px 
   &__menu 
    margin-left: auto
+   cursor: pointer
    span 
     --size: 4px
     width: var(--size)
@@ -199,6 +200,7 @@
   &__top
    display: flex
    align-items: flex-start
+   cursor: pointer
    p 
     font-size: 14px
     color: #868695
@@ -206,6 +208,17 @@
     margin-right: 12px
    img 
     margin-top: 3px
+  &__text 
+   font-size: 14px
+   max-height: 0
+   overflow: hidden
+   transition: 0.6s
+  &.active 
+   .reviews-answer
+    &__text 
+     max-height: 500px
+     margin-top: 10px
+
 
 .buy
  position: fixed
